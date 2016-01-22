@@ -1,0 +1,16 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name : libtinySIP
+Description : Doubango Telecom tinyIP (SIP protocol) library
+Version : 2.0.1316
+Requires: 
+Requires.private: tinySAK = 2.0.1316 tinyNET = 2.0.1316 tinyHTTP = 2.0.1316 tinyIPSec = 2.0.1316 tinySDP = 2.0.1316 tinyMEDIA = 2.0.1316 tinySIGCOMP = 2.0.1316
+Conflicts:
+Cflags : -I${includedir}/tinysip
+Libs : -L${libdir} -ltinySIP
+Libs.private: 
+
+

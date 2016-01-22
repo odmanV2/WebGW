@@ -1,0 +1,14 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name : libtinyXCAP
+Description : Doubango Telecom tinyXCAP (XCAP protocol) library
+Version : 2.0.1316
+Requires: 
+Requires.private: tinySAK = 2.0.1316 tinyNET = 2.0.1316 tinyHTTP = 2.0.1316
+Conflicts:
+Cflags : -I${includedir}/tinyxcap
+Libs : -L${libdir} -ltinyXCAP
+Libs.private: 

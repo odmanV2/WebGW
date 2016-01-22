@@ -1,0 +1,15 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name : libtinyMEDIA
+Description : Doubango Telecom tinyMEDIA (Plugins definition) library
+Version : 2.0.1316
+Requires: 
+Requires.private: tinySAK = 2.0.1316 tinyNET = 2.0.1316 tinySDP = 2.0.1316
+Conflicts:
+Cflags : -I${includedir}/tinymedia
+Libs : -L${libdir} -ltinyMEDIA
+Libs.private: 
+
