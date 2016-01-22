@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_Priority.lo: \
+ src/headers/tsip_header_Priority.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

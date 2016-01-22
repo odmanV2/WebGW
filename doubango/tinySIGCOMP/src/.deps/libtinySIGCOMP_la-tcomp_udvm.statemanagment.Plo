@@ -1,0 +1,137 @@
+src/libtinySIGCOMP_la-tcomp_udvm.statemanagment.lo: \
+ src/tcomp_udvm.statemanagment.c /usr/include/stdc-predef.h \
+ src/tcomp_udvm.h src/tinysigcomp_config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h ../config.h \
+ src/tcomp_message.h src/tcomp_buffer.h ../tinySAK/src/tsk_object.h \
+ ../tinySAK/src/tinysak_config.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ ../tinySAK/src/tsk_common.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h src/tcomp_nackinfo.h ../tinySAK/src/tsk_sha1.h \
+ src/tcomp_result.h src/tcomp_state.h ../tinySAK/src/tsk_safeobj.h \
+ ../tinySAK/src/tsk_mutex.h ../tinySAK/src/tsk_list.h \
+ ../tinySAK/src/tsk_object.h src/tcomp_reqfeed.h src/tcomp_params.h \
+ src/tcomp_types.h src/tcomp_headers_index.h src/tcomp_nack_codes.h \
+ src/tcomp_statehandler.h src/tcomp_compartment.h \
+ src/tcomp_compressordata.h src/tcomp_instructions.h \
+ ../tinySAK/src/tsk_binaryutils.h
+
+/usr/include/stdc-predef.h:
+
+src/tcomp_udvm.h:
+
+src/tinysigcomp_config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+../config.h:
+
+src/tcomp_message.h:
+
+src/tcomp_buffer.h:
+
+../tinySAK/src/tsk_object.h:
+
+../tinySAK/src/tinysak_config.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+../tinySAK/src/tsk_common.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+src/tcomp_nackinfo.h:
+
+../tinySAK/src/tsk_sha1.h:
+
+src/tcomp_result.h:
+
+src/tcomp_state.h:
+
+../tinySAK/src/tsk_safeobj.h:
+
+../tinySAK/src/tsk_mutex.h:
+
+../tinySAK/src/tsk_list.h:
+
+../tinySAK/src/tsk_object.h:
+
+src/tcomp_reqfeed.h:
+
+src/tcomp_params.h:
+
+src/tcomp_types.h:
+
+src/tcomp_headers_index.h:
+
+src/tcomp_nack_codes.h:
+
+src/tcomp_statehandler.h:
+
+src/tcomp_compartment.h:
+
+src/tcomp_compressordata.h:
+
+src/tcomp_instructions.h:
+
+../tinySAK/src/tsk_binaryutils.h:

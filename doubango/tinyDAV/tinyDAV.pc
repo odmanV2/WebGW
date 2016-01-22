@@ -1,0 +1,15 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name : libtinyDAV
+Description : Doubango Telecom tinyDAV (Audio/Video) library
+Version : 2.0.1316
+Requires: 
+Requires.private: tinySAK = 2.0.1316 tinyNET = 2.0.1316 tinySDP = 2.0.1316 tinyBFCP = 2.0.1316 tinyRTP = 2.0.1316 tinyMEDIA = 2.0.1316 tinyMSRP = 2.0.1316
+Conflicts:
+Cflags : -I${includedir}/tinydav
+Libs : -L${libdir} -ltinyDAV
+Libs.private:  @LIBH264_LIBADD@  -lopus  -lspeex -lspeexdsp     -ljpeg 
+

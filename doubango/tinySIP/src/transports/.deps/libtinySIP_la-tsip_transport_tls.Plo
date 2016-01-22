@@ -1,0 +1,4 @@
+src/transports/libtinySIP_la-tsip_transport_tls.lo: \
+ src/transports/tsip_transport_tls.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

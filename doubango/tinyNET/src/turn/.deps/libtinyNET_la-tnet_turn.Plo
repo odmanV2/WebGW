@@ -1,0 +1,4 @@
+src/turn/libtinyNET_la-tnet_turn.lo: src/turn/tnet_turn.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

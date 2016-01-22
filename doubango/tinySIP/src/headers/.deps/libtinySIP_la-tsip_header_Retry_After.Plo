@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_Retry_After.lo: \
+ src/headers/tsip_header_Retry_After.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,5 @@
+src/headers/libtinySIP_la-tsip_header_P_Media_Authorization.lo: \
+ src/headers/tsip_header_P_Media_Authorization.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

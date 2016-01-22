@@ -1,0 +1,1030 @@
+_common/libtinyWRAP_la-SMSEncoder.lo: _common/SMSEncoder.cxx \
+ /usr/include/stdc-predef.h _common/SMSEncoder.h \
+ _common/tinyWRAP_config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h ../config.h \
+ ../tinySIP/include/tinysip.h ../tinySAK/src/tsk.h \
+ ../tinySAK/src/tinysak_config.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ ../tinySAK/src/tsk_common.h ../config.h ../tinySAK/src/tsk_list.h \
+ ../tinySAK/src/tsk_mutex.h ../tinySAK/src/tsk_object.h \
+ /usr/include/stdio.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h ../tinySAK/src/tsk_string.h \
+ ../tinySAK/src/tsk_buffer.h ../tinySAK/src/tsk_memory.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ ../tinySAK/src/tsk_url.h ../tinySAK/src/tsk_params.h \
+ ../tinySAK/src/tsk_plugin.h ../tinySAK/src/tsk_options.h \
+ ../tinySAK/src/tsk_fsm.h ../tinySAK/src/tsk_safeobj.h \
+ ../tinySAK/src/tsk_time.h ../tinySAK/src/tsk_timer.h \
+ ../tinySAK/src/tsk_condwait.h ../tinySAK/src/tsk_semaphore.h \
+ ../tinySAK/src/tsk_thread.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/timex.h \
+ /usr/include/bits/setjmp.h ../tinySAK/src/tsk_runnable.h \
+ ../tinySAK/src/tsk_debug.h ../tinySAK/src/tsk_ppfcs16.h \
+ ../tinySAK/src/tsk_sha1.h ../tinySAK/src/tsk_md5.h \
+ ../tinySAK/src/tsk_hmac.h ../tinySAK/src/tsk_base64.h \
+ ../tinySAK/src/tsk_uuid.h ../tinySAK/src/tsk_ragel_state.h \
+ ../tinyNET/src/tinynet.h ../tinyNET/src/tnet.h \
+ ../tinyNET/src/tinynet_config.h ../tinySAK/src/tsk_common.h \
+ ../tinyNET/src/tnet_endianness.h ../tinyNET/src/tnet_nat.h \
+ ../tinyNET/src/tnet_socket.h ../tinyNET/src/tnet_types.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/include/bits/in.h /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/netdb.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/net/if.h \
+ /usr/include/ifaddrs.h /usr/include/poll.h /usr/include/sys/poll.h \
+ /usr/include/bits/poll.h ../tinySAK/src/tsk_errno.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h ../tinySAK/src/tsk_list.h \
+ ../tinyNET/src/tls/tnet_tls.h ../tinyNET/src/tinynet_config.h \
+ ../tinyNET/src/tnet_types.h /usr/include/openssl/ssl.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+ /usr/include/openssl/opensslconf-x86_64.h /usr/include/openssl/comp.h \
+ /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+ /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+ /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+ /usr/include/openssl/bio.h /usr/include/openssl/x509.h \
+ /usr/include/openssl/buffer.h /usr/include/openssl/evp.h \
+ /usr/include/openssl/fips.h /usr/include/openssl/objects.h \
+ /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+ /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+ /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+ /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+ /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+ /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+ /usr/include/openssl/pkcs7.h /usr/include/openssl/pem.h \
+ /usr/include/openssl/pem2.h /usr/include/openssl/hmac.h \
+ /usr/include/openssl/kssl.h /usr/include/ctype.h /usr/include/krb5.h \
+ /usr/include/krb5/krb5.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/et/com_err.h /usr/include/openssl/ssl2.h \
+ /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
+ /usr/include/openssl/dtls1.h /usr/include/openssl/pqueue.h \
+ /usr/include/sys/time.h /usr/include/openssl/ssl23.h \
+ /usr/include/openssl/srtp.h /usr/include/openssl/err.h \
+ ../tinyNET/src/tls/tnet_dtls.h ../tinyNET/src/stun/tnet_stun_types.h \
+ ../tinyNET/src/tnet_transport.h ../tinyNET/src/tnet_utils.h \
+ ../tinySAK/src/tsk_runnable.h ../tinyNET/src/tnet_proxy_plugin.h \
+ ../tinyNET/src/stun/tnet_stun.h ../tinyNET/src/ice/tnet_ice_event.h \
+ ../tinySAK/src/tsk_object.h ../tinyNET/src/ice/tnet_ice_candidate.h \
+ ../tinyNET/src/stun/tnet_stun_pkt.h ../tinyNET/src/stun/tnet_stun_attr.h \
+ ../tinyNET/src/stun/tnet_stun_types.h ../tinySAK/src/tsk_buffer.h \
+ ../tinyNET/src/stun/tnet_stun_utils.h ../tinyNET/src/tnet_socket.h \
+ ../tinySAK/src/tsk_params.h ../tinyNET/src/ice/tnet_ice_ctx.h \
+ ../tinyNET/src/dns/tnet_dns.h ../tinyNET/src/dns/tnet_dns_message.h \
+ ../tinyNET/src/dns/tnet_dns_rr.h ../tinyNET/src/tnet_utils.h \
+ ../tinySAK/src/tsk_safeobj.h ../tinyNET/src/dns/tnet_dns_naptr.h \
+ ../tinyNET/src/dns/tnet_dns_regexp.h \
+ ../tinyNET/src/dns/tnet_dns_resolvconf.h ../tinyNET/src/dhcp/tnet_dhcp.h \
+ ../tinyNET/src/dhcp/tnet_dhcp_message.h \
+ ../tinyNET/src/dhcp/tnet_dhcp_option.h ../tinySAK/src/tsk_string.h \
+ ../tinyNET/src/tnet_hardwares.h \
+ ../tinyNET/src/dhcp/tnet_dhcp_option_sip.h \
+ ../tinyNET/src/dhcp6/tnet_dhcp6.h \
+ ../tinyNET/src/dhcp6/tnet_dhcp6_message.h \
+ ../tinyNET/src/dhcp6/tnet_dhcp6_option.h \
+ ../tinyNET/src/dhcp6/tnet_dhcp6_duid.h \
+ ../tinyNET/src/dhcp6/tnet_dhcp6_option.h \
+ ../tinyMEDIA/include/tinymedia.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_codec_dummy.h \
+ ../tinyMEDIA/include/tinymedia_config.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_codec.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_common.h \
+ ../tinySAK/src/tsk_plugin.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_session_dummy.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_session.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_codec.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_qos.h \
+ ../tinySDP/include/tinysdp/tsdp_message.h \
+ ../tinySDP/include/tinysdp_config.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header.h \
+ ../tinySAK/src/tsk_ragel_state.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_M.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_A.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_B.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_C.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_I.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_K.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_params.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_common.h ../tinyNET/src/tnet_nat.h \
+ ../tinySAK/src/tsk_debug.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_session_ghost.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_jitterbuffer.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_resampler.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_denoise.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_imageattr.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_consumer.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_producer.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_common.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_qos.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_defaults.h \
+ ../tinyMEDIA/include/tinymedia/content/tmedia_content.h \
+ ../tinyMEDIA/include/tinymedia/content/tmedia_content_cpim.h \
+ ../tinyMEDIA/include/tinymedia/content/tmedia_content.h \
+ ../tinyMEDIA/include/tinymedia/content/tmedia_content_multipart.h \
+ ../tinyMEDIA/include/tinymedia/content/tmedia_content_sip_frag.h \
+ ../tinySDP/include/tinysdp.h ../tinySDP/include/tinysdp/tsdp_message.h \
+ ../tinySDP/include/tinysdp/parsers/tsdp_parser_message.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_A.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_B.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_C.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_Dummy.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_E.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_I.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_K.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_M.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_O.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_P.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_R.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_S.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_T.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_R.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_U.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_V.h \
+ ../tinySDP/include/tinysdp/headers/tsdp_header_Z.h \
+ ../tinySIP/include/tsip.h ../tinySIP/include/tinysip_config.h \
+ ../tinySIP/include/tinysip/tsip_ssession.h \
+ ../tinySIP/include/tinysip_config.h \
+ ../tinyMEDIA/include/tinymedia/tmedia_session.h \
+ ../tinySAK/src/tsk_options.h ../tinySIP/include/tinysip/tsip_timers.h \
+ ../tinySAK/src/tsk_timer.h ../tinySIP/include/tinysip/tsip_event.h \
+ ../tinySIP/include/tinysip/tsip_ssession.h \
+ ../tinySIP/include/tinysip/transports/tsip_transport.h \
+ ../tinySIP/include/tinysip/tsip_message.h \
+ ../tinySIP/include/tinysip/tsip_message_common.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Call_ID.h \
+ ../tinySIP/include/tinysip/headers/tsip_header.h \
+ ../tinySAK/src/tsk_memory.h ../tinySAK/src/tsk_uuid.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Contact.h \
+ ../tinySIP/include/tinysip/tsip_uri.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Content_Length.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Content_Type.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_CSeq.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Expires.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_From.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_P_Access_Network_Info.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_To.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Via.h \
+ ../tinyNET/src/tnet_transport.h ../tinySIP/include/tinysip/tsip_uri.h \
+ ../tinySIP/include/tinysip/sigcomp/tsip_sigcomp.h \
+ ../tinySIP/include/tinysip/parsers/tsip_parser_uri.h \
+ ../tinySIP/include/tinysip/parsers/tsip_parser_header.h \
+ ../tinySIP/include/tinysip/parsers/tsip_parser_message.h \
+ ../tinySIP/include/tinysip/tsip_action.h \
+ ../tinySIP/include/tinysip/tsip_message.h \
+ ../tinySIP/include/tinysip/headers/tsip_headers.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Allow.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Allow_Events.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Authorization.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Date.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Dummy.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Event.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Max_Forwards.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Min_Expires.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Min_SE.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Path.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_P_Asserted_Identity.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_P_Associated_URI.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_P_Charging_Function_Addresses.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_P_Preferred_Identity.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Privacy.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Proxy_Authenticate.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Proxy_Authorization.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Proxy_Require.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_RAck.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Record_Route.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Refer_Sub.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Refer_To.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Referred_By.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Require.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Route.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_RSeq.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Security_Client.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Security_Server.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Security_Verify.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Server.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Session_Expires.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Service_Route.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_SIP_ETag.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_SIP_If_Match.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Subscription_State.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Supported.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_User_Agent.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_Warning.h \
+ ../tinySIP/include/tinysip/headers/tsip_header_WWW_Authenticate.h \
+ ../tinySIP/include/tinysip/api/tsip_api_common.h \
+ ../tinySIP/include/tinysip/api/tsip_api_invite.h \
+ ../tinySIP/include/tinysip/tsip_event.h \
+ ../tinySIP/include/tinysip/api/tsip_api_message.h \
+ ../tinySIP/include/tinysip/api/tsip_api_info.h \
+ ../tinySIP/include/tinysip/api/tsip_api_options.h \
+ ../tinySIP/include/tinysip/api/tsip_api_publish.h \
+ ../tinySIP/include/tinysip/api/tsip_api_register.h \
+ ../tinySIP/include/tinysip/api/tsip_api_subscribe.h \
+ ../tinySMS/include/tinysms.h ../tinySMS/include/tinysms/tsms_packing.h \
+ ../tinySMS/include/tinysms_config.h \
+ ../tinySMS/include/tinysms/rpdu/tsms_rpdu.h \
+ ../tinySMS/include/tinysms/tsms_common.h \
+ ../tinySMS/include/tinysms/tsms_address.h \
+ ../tinySMS/include/tinysms/tpdu/tsms_tpdu_submit.h \
+ ../tinySMS/include/tinysms/tpdu/tsms_tpdu_deliver.h \
+ ../tinySMS/include/tinysms/tpdu/tsms_tpdu_report.h \
+ ../tinySMS/include/tinysms/tpdu/tsms_tpdu_command.h \
+ ../tinySMS/include/tinysms/tpdu/tsms_tpdu_status_report.h
+
+/usr/include/stdc-predef.h:
+
+_common/SMSEncoder.h:
+
+_common/tinyWRAP_config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+../config.h:
+
+../tinySIP/include/tinysip.h:
+
+../tinySAK/src/tsk.h:
+
+../tinySAK/src/tinysak_config.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+../tinySAK/src/tsk_common.h:
+
+../config.h:
+
+../tinySAK/src/tsk_list.h:
+
+../tinySAK/src/tsk_mutex.h:
+
+../tinySAK/src/tsk_object.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../tinySAK/src/tsk_string.h:
+
+../tinySAK/src/tsk_buffer.h:
+
+../tinySAK/src/tsk_memory.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+../tinySAK/src/tsk_url.h:
+
+../tinySAK/src/tsk_params.h:
+
+../tinySAK/src/tsk_plugin.h:
+
+../tinySAK/src/tsk_options.h:
+
+../tinySAK/src/tsk_fsm.h:
+
+../tinySAK/src/tsk_safeobj.h:
+
+../tinySAK/src/tsk_time.h:
+
+../tinySAK/src/tsk_timer.h:
+
+../tinySAK/src/tsk_condwait.h:
+
+../tinySAK/src/tsk_semaphore.h:
+
+../tinySAK/src/tsk_thread.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+../tinySAK/src/tsk_runnable.h:
+
+../tinySAK/src/tsk_debug.h:
+
+../tinySAK/src/tsk_ppfcs16.h:
+
+../tinySAK/src/tsk_sha1.h:
+
+../tinySAK/src/tsk_md5.h:
+
+../tinySAK/src/tsk_hmac.h:
+
+../tinySAK/src/tsk_base64.h:
+
+../tinySAK/src/tsk_uuid.h:
+
+../tinySAK/src/tsk_ragel_state.h:
+
+../tinyNET/src/tinynet.h:
+
+../tinyNET/src/tnet.h:
+
+../tinyNET/src/tinynet_config.h:
+
+../tinySAK/src/tsk_common.h:
+
+../tinyNET/src/tnet_endianness.h:
+
+../tinyNET/src/tnet_nat.h:
+
+../tinyNET/src/tnet_socket.h:
+
+../tinyNET/src/tnet_types.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/netdb.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/ioctl.h:
+
+/usr/include/bits/ioctls.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/bits/ioctl-types.h:
+
+/usr/include/sys/ttydefaults.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/net/if.h:
+
+/usr/include/ifaddrs.h:
+
+/usr/include/poll.h:
+
+/usr/include/sys/poll.h:
+
+/usr/include/bits/poll.h:
+
+../tinySAK/src/tsk_errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../tinySAK/src/tsk_list.h:
+
+../tinyNET/src/tls/tnet_tls.h:
+
+../tinyNET/src/tinynet_config.h:
+
+../tinyNET/src/tnet_types.h:
+
+/usr/include/openssl/ssl.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/opensslconf-x86_64.h:
+
+/usr/include/openssl/comp.h:
+
+/usr/include/openssl/crypto.h:
+
+/usr/include/openssl/stack.h:
+
+/usr/include/openssl/safestack.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/openssl/symhacks.h:
+
+/usr/include/openssl/bio.h:
+
+/usr/include/openssl/x509.h:
+
+/usr/include/openssl/buffer.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/fips.h:
+
+/usr/include/openssl/objects.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/asn1.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/ecdsa.h:
+
+/usr/include/openssl/ecdh.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/sha.h:
+
+/usr/include/openssl/x509_vfy.h:
+
+/usr/include/openssl/lhash.h:
+
+/usr/include/openssl/pkcs7.h:
+
+/usr/include/openssl/pem.h:
+
+/usr/include/openssl/pem2.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/openssl/kssl.h:
+
+/usr/include/ctype.h:
+
+/usr/include/krb5.h:
+
+/usr/include/krb5/krb5.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/et/com_err.h:
+
+/usr/include/openssl/ssl2.h:
+
+/usr/include/openssl/ssl3.h:
+
+/usr/include/openssl/tls1.h:
+
+/usr/include/openssl/dtls1.h:
+
+/usr/include/openssl/pqueue.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/openssl/ssl23.h:
+
+/usr/include/openssl/srtp.h:
+
+/usr/include/openssl/err.h:
+
+../tinyNET/src/tls/tnet_dtls.h:
+
+../tinyNET/src/stun/tnet_stun_types.h:
+
+../tinyNET/src/tnet_transport.h:
+
+../tinyNET/src/tnet_utils.h:
+
+../tinySAK/src/tsk_runnable.h:
+
+../tinyNET/src/tnet_proxy_plugin.h:
+
+../tinyNET/src/stun/tnet_stun.h:
+
+../tinyNET/src/ice/tnet_ice_event.h:
+
+../tinySAK/src/tsk_object.h:
+
+../tinyNET/src/ice/tnet_ice_candidate.h:
+
+../tinyNET/src/stun/tnet_stun_pkt.h:
+
+../tinyNET/src/stun/tnet_stun_attr.h:
+
+../tinyNET/src/stun/tnet_stun_types.h:
+
+../tinySAK/src/tsk_buffer.h:
+
+../tinyNET/src/stun/tnet_stun_utils.h:
+
+../tinyNET/src/tnet_socket.h:
+
+../tinySAK/src/tsk_params.h:
+
+../tinyNET/src/ice/tnet_ice_ctx.h:
+
+../tinyNET/src/dns/tnet_dns.h:
+
+../tinyNET/src/dns/tnet_dns_message.h:
+
+../tinyNET/src/dns/tnet_dns_rr.h:
+
+../tinyNET/src/tnet_utils.h:
+
+../tinySAK/src/tsk_safeobj.h:
+
+../tinyNET/src/dns/tnet_dns_naptr.h:
+
+../tinyNET/src/dns/tnet_dns_regexp.h:
+
+../tinyNET/src/dns/tnet_dns_resolvconf.h:
+
+../tinyNET/src/dhcp/tnet_dhcp.h:
+
+../tinyNET/src/dhcp/tnet_dhcp_message.h:
+
+../tinyNET/src/dhcp/tnet_dhcp_option.h:
+
+../tinySAK/src/tsk_string.h:
+
+../tinyNET/src/tnet_hardwares.h:
+
+../tinyNET/src/dhcp/tnet_dhcp_option_sip.h:
+
+../tinyNET/src/dhcp6/tnet_dhcp6.h:
+
+../tinyNET/src/dhcp6/tnet_dhcp6_message.h:
+
+../tinyNET/src/dhcp6/tnet_dhcp6_option.h:
+
+../tinyNET/src/dhcp6/tnet_dhcp6_duid.h:
+
+../tinyNET/src/dhcp6/tnet_dhcp6_option.h:
+
+../tinyMEDIA/include/tinymedia.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_codec_dummy.h:
+
+../tinyMEDIA/include/tinymedia_config.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_codec.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_common.h:
+
+../tinySAK/src/tsk_plugin.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_session_dummy.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_session.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_codec.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_qos.h:
+
+../tinySDP/include/tinysdp/tsdp_message.h:
+
+../tinySDP/include/tinysdp_config.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header.h:
+
+../tinySAK/src/tsk_ragel_state.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_M.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_A.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_B.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_C.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_I.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_K.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_params.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_common.h:
+
+../tinyNET/src/tnet_nat.h:
+
+../tinySAK/src/tsk_debug.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_session_ghost.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_jitterbuffer.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_resampler.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_denoise.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_imageattr.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_consumer.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_producer.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_common.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_qos.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_defaults.h:
+
+../tinyMEDIA/include/tinymedia/content/tmedia_content.h:
+
+../tinyMEDIA/include/tinymedia/content/tmedia_content_cpim.h:
+
+../tinyMEDIA/include/tinymedia/content/tmedia_content.h:
+
+../tinyMEDIA/include/tinymedia/content/tmedia_content_multipart.h:
+
+../tinyMEDIA/include/tinymedia/content/tmedia_content_sip_frag.h:
+
+../tinySDP/include/tinysdp.h:
+
+../tinySDP/include/tinysdp/tsdp_message.h:
+
+../tinySDP/include/tinysdp/parsers/tsdp_parser_message.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_A.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_B.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_C.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_Dummy.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_E.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_I.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_K.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_M.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_O.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_P.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_R.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_S.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_T.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_R.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_U.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_V.h:
+
+../tinySDP/include/tinysdp/headers/tsdp_header_Z.h:
+
+../tinySIP/include/tsip.h:
+
+../tinySIP/include/tinysip_config.h:
+
+../tinySIP/include/tinysip/tsip_ssession.h:
+
+../tinySIP/include/tinysip_config.h:
+
+../tinyMEDIA/include/tinymedia/tmedia_session.h:
+
+../tinySAK/src/tsk_options.h:
+
+../tinySIP/include/tinysip/tsip_timers.h:
+
+../tinySAK/src/tsk_timer.h:
+
+../tinySIP/include/tinysip/tsip_event.h:
+
+../tinySIP/include/tinysip/tsip_ssession.h:
+
+../tinySIP/include/tinysip/transports/tsip_transport.h:
+
+../tinySIP/include/tinysip/tsip_message.h:
+
+../tinySIP/include/tinysip/tsip_message_common.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Call_ID.h:
+
+../tinySIP/include/tinysip/headers/tsip_header.h:
+
+../tinySAK/src/tsk_memory.h:
+
+../tinySAK/src/tsk_uuid.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Contact.h:
+
+../tinySIP/include/tinysip/tsip_uri.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Content_Length.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Content_Type.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_CSeq.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Expires.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_From.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_P_Access_Network_Info.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_To.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Via.h:
+
+../tinyNET/src/tnet_transport.h:
+
+../tinySIP/include/tinysip/tsip_uri.h:
+
+../tinySIP/include/tinysip/sigcomp/tsip_sigcomp.h:
+
+../tinySIP/include/tinysip/parsers/tsip_parser_uri.h:
+
+../tinySIP/include/tinysip/parsers/tsip_parser_header.h:
+
+../tinySIP/include/tinysip/parsers/tsip_parser_message.h:
+
+../tinySIP/include/tinysip/tsip_action.h:
+
+../tinySIP/include/tinysip/tsip_message.h:
+
+../tinySIP/include/tinysip/headers/tsip_headers.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Allow.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Allow_Events.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Authorization.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Date.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Dummy.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Event.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Max_Forwards.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Min_Expires.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Min_SE.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Path.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_P_Asserted_Identity.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_P_Associated_URI.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_P_Charging_Function_Addresses.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_P_Preferred_Identity.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Privacy.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Proxy_Authenticate.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Proxy_Authorization.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Proxy_Require.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_RAck.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Record_Route.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Refer_Sub.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Refer_To.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Referred_By.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Require.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Route.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_RSeq.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Security_Client.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Security_Server.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Security_Verify.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Server.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Session_Expires.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Service_Route.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_SIP_ETag.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_SIP_If_Match.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Subscription_State.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Supported.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_User_Agent.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_Warning.h:
+
+../tinySIP/include/tinysip/headers/tsip_header_WWW_Authenticate.h:
+
+../tinySIP/include/tinysip/api/tsip_api_common.h:
+
+../tinySIP/include/tinysip/api/tsip_api_invite.h:
+
+../tinySIP/include/tinysip/tsip_event.h:
+
+../tinySIP/include/tinysip/api/tsip_api_message.h:
+
+../tinySIP/include/tinysip/api/tsip_api_info.h:
+
+../tinySIP/include/tinysip/api/tsip_api_options.h:
+
+../tinySIP/include/tinysip/api/tsip_api_publish.h:
+
+../tinySIP/include/tinysip/api/tsip_api_register.h:
+
+../tinySIP/include/tinysip/api/tsip_api_subscribe.h:
+
+../tinySMS/include/tinysms.h:
+
+../tinySMS/include/tinysms/tsms_packing.h:
+
+../tinySMS/include/tinysms_config.h:
+
+../tinySMS/include/tinysms/rpdu/tsms_rpdu.h:
+
+../tinySMS/include/tinysms/tsms_common.h:
+
+../tinySMS/include/tinysms/tsms_address.h:
+
+../tinySMS/include/tinysms/tpdu/tsms_tpdu_submit.h:
+
+../tinySMS/include/tinysms/tpdu/tsms_tpdu_deliver.h:
+
+../tinySMS/include/tinysms/tpdu/tsms_tpdu_report.h:
+
+../tinySMS/include/tinysms/tpdu/tsms_tpdu_command.h:
+
+../tinySMS/include/tinysms/tpdu/tsms_tpdu_status_report.h:

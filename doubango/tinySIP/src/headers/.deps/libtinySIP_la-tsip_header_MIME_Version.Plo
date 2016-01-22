@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_MIME_Version.lo: \
+ src/headers/tsip_header_MIME_Version.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_P_Called_Party_ID.lo: \
+ src/headers/tsip_header_P_Called_Party_ID.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

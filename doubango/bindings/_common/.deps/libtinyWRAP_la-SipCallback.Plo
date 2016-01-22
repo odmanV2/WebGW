@@ -1,0 +1,6 @@
+_common/libtinyWRAP_la-SipCallback.lo: _common/SipCallback.cxx \
+ /usr/include/stdc-predef.h _common/SipCallback.h
+
+/usr/include/stdc-predef.h:
+
+_common/SipCallback.h:

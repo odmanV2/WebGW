@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_Content_Language.lo: \
+ src/headers/tsip_header_Content_Language.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,4 @@
+src/dialogs/libtinySIP_la-tsip_dialog_subscribe.server.lo: \
+ src/dialogs/tsip_dialog_subscribe.server.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

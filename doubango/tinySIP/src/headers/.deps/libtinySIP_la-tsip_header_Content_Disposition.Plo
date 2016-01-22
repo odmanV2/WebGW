@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_Content_Disposition.lo: \
+ src/headers/tsip_header_Content_Disposition.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

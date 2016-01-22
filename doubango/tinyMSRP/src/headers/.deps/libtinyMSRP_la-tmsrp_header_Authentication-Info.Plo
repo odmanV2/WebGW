@@ -1,0 +1,5 @@
+src/headers/libtinyMSRP_la-tmsrp_header_Authentication-Info.lo: \
+ src/headers/tmsrp_header_Authentication-Info.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

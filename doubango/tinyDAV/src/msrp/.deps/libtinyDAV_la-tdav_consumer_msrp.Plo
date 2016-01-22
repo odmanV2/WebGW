@@ -1,0 +1,4 @@
+src/msrp/libtinyDAV_la-tdav_consumer_msrp.lo: \
+ src/msrp/tdav_consumer_msrp.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

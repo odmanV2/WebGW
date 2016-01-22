@@ -1,0 +1,4 @@
+src/headers/libtinySIP_la-tsip_header_Timestamp.lo: \
+ src/headers/tsip_header_Timestamp.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

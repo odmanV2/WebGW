@@ -1,0 +1,4 @@
+src/rtcp/libtinyRTP_la-trtp_rtcp_report.lo: src/rtcp/trtp_rtcp_report.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

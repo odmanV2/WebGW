@@ -1,0 +1,4 @@
+src/msrp/libtinyDAV_la-tdav_producer_msrp.lo: \
+ src/msrp/tdav_producer_msrp.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

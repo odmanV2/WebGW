@@ -1,0 +1,568 @@
+src/turn/libtinyNET_la-tnet_turn_session.lo: src/turn/tnet_turn_session.c \
+ /usr/include/stdc-predef.h src/turn/tnet_turn_session.h \
+ src/tinynet_config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h ../config.h \
+ src/stun/tnet_stun_types.h src/tnet_types.h src/tinynet_config.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/include/bits/in.h /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/netdb.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/stat.h /usr/include/sys/ioctl.h \
+ /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/net/if.h /usr/include/ifaddrs.h \
+ /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
+ ../tinySAK/src/tsk_errno.h ../tinySAK/src/tinysak_config.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ ../tinySAK/src/tsk_common.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h ../tinySAK/src/tsk_list.h \
+ ../tinySAK/src/tsk_mutex.h ../tinySAK/src/tsk_object.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/bits/stdio_lim.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+ ../tinySAK/src/tsk_common.h src/stun/tnet_stun_pkt.h \
+ src/stun/tnet_stun_attr.h ../tinySAK/src/tsk_object.h \
+ ../tinySAK/src/tsk_buffer.h ../tinySAK/src/tsk_list.h \
+ src/stun/tnet_stun_utils.h src/tinynet.h ../tinySAK/src/tsk.h \
+ ../tinySAK/src/tsk_string.h ../tinySAK/src/tsk_buffer.h \
+ ../tinySAK/src/tsk_memory.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h ../tinySAK/src/tsk_url.h \
+ ../tinySAK/src/tsk_params.h ../tinySAK/src/tsk_plugin.h \
+ ../tinySAK/src/tsk_options.h ../tinySAK/src/tsk_fsm.h \
+ ../tinySAK/src/tsk_safeobj.h ../tinySAK/src/tsk_time.h \
+ ../tinySAK/src/tsk_timer.h ../tinySAK/src/tsk_condwait.h \
+ ../tinySAK/src/tsk_semaphore.h ../tinySAK/src/tsk_thread.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h ../tinySAK/src/tsk_runnable.h \
+ ../tinySAK/src/tsk_debug.h ../tinySAK/src/tsk_ppfcs16.h \
+ ../tinySAK/src/tsk_sha1.h ../tinySAK/src/tsk_md5.h \
+ ../tinySAK/src/tsk_hmac.h ../tinySAK/src/tsk_base64.h \
+ ../tinySAK/src/tsk_uuid.h ../tinySAK/src/tsk_ragel_state.h src/tnet.h \
+ src/tnet_endianness.h src/tnet_nat.h src/tnet_socket.h src/tnet_types.h \
+ src/tls/tnet_tls.h /usr/include/openssl/ssl.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/opensslconf.h \
+ /usr/include/openssl/opensslconf-x86_64.h /usr/include/openssl/comp.h \
+ /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
+ /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
+ /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
+ /usr/include/openssl/bio.h /usr/include/openssl/x509.h \
+ /usr/include/openssl/buffer.h /usr/include/openssl/evp.h \
+ /usr/include/openssl/fips.h /usr/include/openssl/objects.h \
+ /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+ /usr/include/openssl/bn.h /usr/include/openssl/ec.h \
+ /usr/include/openssl/ecdsa.h /usr/include/openssl/ecdh.h \
+ /usr/include/openssl/rsa.h /usr/include/openssl/dsa.h \
+ /usr/include/openssl/dh.h /usr/include/openssl/sha.h \
+ /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
+ /usr/include/openssl/pkcs7.h /usr/include/openssl/pem.h \
+ /usr/include/openssl/pem2.h /usr/include/openssl/hmac.h \
+ /usr/include/openssl/kssl.h /usr/include/ctype.h /usr/include/krb5.h \
+ /usr/include/krb5/krb5.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/et/com_err.h \
+ /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
+ /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+ /usr/include/openssl/pqueue.h /usr/include/sys/time.h \
+ /usr/include/openssl/ssl23.h /usr/include/openssl/srtp.h \
+ /usr/include/openssl/err.h src/tls/tnet_dtls.h \
+ src/stun/tnet_stun_types.h src/tnet_transport.h src/tnet_utils.h \
+ ../tinySAK/src/tsk_runnable.h src/tnet_proxy_plugin.h \
+ src/stun/tnet_stun.h src/ice/tnet_ice_event.h \
+ src/ice/tnet_ice_candidate.h src/tnet_socket.h \
+ ../tinySAK/src/tsk_params.h src/ice/tnet_ice_ctx.h src/dns/tnet_dns.h \
+ src/dns/tnet_dns_message.h src/dns/tnet_dns_rr.h src/tnet_utils.h \
+ ../tinySAK/src/tsk_safeobj.h src/dns/tnet_dns_naptr.h \
+ src/dns/tnet_dns_regexp.h src/dns/tnet_dns_resolvconf.h \
+ src/dhcp/tnet_dhcp.h src/dhcp/tnet_dhcp_message.h \
+ src/dhcp/tnet_dhcp_option.h ../tinySAK/src/tsk_string.h \
+ src/tnet_hardwares.h src/dhcp/tnet_dhcp_option_sip.h \
+ src/dhcp6/tnet_dhcp6.h src/dhcp6/tnet_dhcp6_message.h \
+ src/dhcp6/tnet_dhcp6_option.h src/dhcp6/tnet_dhcp6_duid.h \
+ src/dhcp6/tnet_dhcp6_option.h src/tnet_proxydetect.h \
+ ../tinySAK/src/tsk_timer.h ../tinySAK/src/tsk_time.h \
+ ../tinySAK/src/tsk_debug.h
+
+/usr/include/stdc-predef.h:
+
+src/turn/tnet_turn_session.h:
+
+src/tinynet_config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+../config.h:
+
+src/stun/tnet_stun_types.h:
+
+src/tnet_types.h:
+
+src/tinynet_config.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/netdb.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/ioctl.h:
+
+/usr/include/bits/ioctls.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/bits/ioctl-types.h:
+
+/usr/include/sys/ttydefaults.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/net/if.h:
+
+/usr/include/ifaddrs.h:
+
+/usr/include/poll.h:
+
+/usr/include/sys/poll.h:
+
+/usr/include/bits/poll.h:
+
+../tinySAK/src/tsk_errno.h:
+
+../tinySAK/src/tinysak_config.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+../tinySAK/src/tsk_common.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../tinySAK/src/tsk_list.h:
+
+../tinySAK/src/tsk_mutex.h:
+
+../tinySAK/src/tsk_object.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../tinySAK/src/tsk_common.h:
+
+src/stun/tnet_stun_pkt.h:
+
+src/stun/tnet_stun_attr.h:
+
+../tinySAK/src/tsk_object.h:
+
+../tinySAK/src/tsk_buffer.h:
+
+../tinySAK/src/tsk_list.h:
+
+src/stun/tnet_stun_utils.h:
+
+src/tinynet.h:
+
+../tinySAK/src/tsk.h:
+
+../tinySAK/src/tsk_string.h:
+
+../tinySAK/src/tsk_buffer.h:
+
+../tinySAK/src/tsk_memory.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+../tinySAK/src/tsk_url.h:
+
+../tinySAK/src/tsk_params.h:
+
+../tinySAK/src/tsk_plugin.h:
+
+../tinySAK/src/tsk_options.h:
+
+../tinySAK/src/tsk_fsm.h:
+
+../tinySAK/src/tsk_safeobj.h:
+
+../tinySAK/src/tsk_time.h:
+
+../tinySAK/src/tsk_timer.h:
+
+../tinySAK/src/tsk_condwait.h:
+
+../tinySAK/src/tsk_semaphore.h:
+
+../tinySAK/src/tsk_thread.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+../tinySAK/src/tsk_runnable.h:
+
+../tinySAK/src/tsk_debug.h:
+
+../tinySAK/src/tsk_ppfcs16.h:
+
+../tinySAK/src/tsk_sha1.h:
+
+../tinySAK/src/tsk_md5.h:
+
+../tinySAK/src/tsk_hmac.h:
+
+../tinySAK/src/tsk_base64.h:
+
+../tinySAK/src/tsk_uuid.h:
+
+../tinySAK/src/tsk_ragel_state.h:
+
+src/tnet.h:
+
+src/tnet_endianness.h:
+
+src/tnet_nat.h:
+
+src/tnet_socket.h:
+
+src/tnet_types.h:
+
+src/tls/tnet_tls.h:
+
+/usr/include/openssl/ssl.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/opensslconf-x86_64.h:
+
+/usr/include/openssl/comp.h:
+
+/usr/include/openssl/crypto.h:
+
+/usr/include/openssl/stack.h:
+
+/usr/include/openssl/safestack.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/openssl/symhacks.h:
+
+/usr/include/openssl/bio.h:
+
+/usr/include/openssl/x509.h:
+
+/usr/include/openssl/buffer.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/fips.h:
+
+/usr/include/openssl/objects.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/asn1.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/ecdsa.h:
+
+/usr/include/openssl/ecdh.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/sha.h:
+
+/usr/include/openssl/x509_vfy.h:
+
+/usr/include/openssl/lhash.h:
+
+/usr/include/openssl/pkcs7.h:
+
+/usr/include/openssl/pem.h:
+
+/usr/include/openssl/pem2.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/openssl/kssl.h:
+
+/usr/include/ctype.h:
+
+/usr/include/krb5.h:
+
+/usr/include/krb5/krb5.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/et/com_err.h:
+
+/usr/include/openssl/ssl2.h:
+
+/usr/include/openssl/ssl3.h:
+
+/usr/include/openssl/tls1.h:
+
+/usr/include/openssl/dtls1.h:
+
+/usr/include/openssl/pqueue.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/openssl/ssl23.h:
+
+/usr/include/openssl/srtp.h:
+
+/usr/include/openssl/err.h:
+
+src/tls/tnet_dtls.h:
+
+src/stun/tnet_stun_types.h:
+
+src/tnet_transport.h:
+
+src/tnet_utils.h:
+
+../tinySAK/src/tsk_runnable.h:
+
+src/tnet_proxy_plugin.h:
+
+src/stun/tnet_stun.h:
+
+src/ice/tnet_ice_event.h:
+
+src/ice/tnet_ice_candidate.h:
+
+src/tnet_socket.h:
+
+../tinySAK/src/tsk_params.h:
+
+src/ice/tnet_ice_ctx.h:
+
+src/dns/tnet_dns.h:
+
+src/dns/tnet_dns_message.h:
+
+src/dns/tnet_dns_rr.h:
+
+src/tnet_utils.h:
+
+../tinySAK/src/tsk_safeobj.h:
+
+src/dns/tnet_dns_naptr.h:
+
+src/dns/tnet_dns_regexp.h:
+
+src/dns/tnet_dns_resolvconf.h:
+
+src/dhcp/tnet_dhcp.h:
+
+src/dhcp/tnet_dhcp_message.h:
+
+src/dhcp/tnet_dhcp_option.h:
+
+../tinySAK/src/tsk_string.h:
+
+src/tnet_hardwares.h:
+
+src/dhcp/tnet_dhcp_option_sip.h:
+
+src/dhcp6/tnet_dhcp6.h:
+
+src/dhcp6/tnet_dhcp6_message.h:
+
+src/dhcp6/tnet_dhcp6_option.h:
+
+src/dhcp6/tnet_dhcp6_duid.h:
+
+src/dhcp6/tnet_dhcp6_option.h:
+
+src/tnet_proxydetect.h:
+
+../tinySAK/src/tsk_timer.h:
+
+../tinySAK/src/tsk_time.h:
+
+../tinySAK/src/tsk_debug.h:

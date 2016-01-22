@@ -1,0 +1,4 @@
+src/content/libtinyMEDIA_la-tmedia_content_sip_frag.lo: \
+ src/content/tmedia_content_sip_frag.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

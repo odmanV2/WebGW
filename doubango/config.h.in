@@ -1,0 +1,359 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* General Electric */
+#undef BUILD_TYPE_GE
+
+/* Technicolor */
+#undef BUILD_TYPE_TCH
+
+/* Tiscali */
+#undef BUILD_TYPE_TISCALI
+
+/* fatal debug */
+#undef DEBUG_LEVEL
+
+/* Define if <alsa/asoundlib.h> header exist */
+#undef HAVE_ALSA_ASOUNDLIB_H
+
+/* Checks if the installed libsrtp version support append_salt_to_key()
+   function */
+#undef HAVE_APPEND_SALT_TO_KEY
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if we have the `clock_gettime' function. */
+#undef HAVE_CLOCK_GETTIME
+
+/* Define to 1 if you have the `closedir' function. */
+#undef HAVE_CLOSEDIR
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define if <dns.h> header exist */
+#undef HAVE_DNS_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* HAVE_FFMPEG */
+#undef HAVE_FFMPEG
+
+/* HAVE_G729 */
+#undef HAVE_G729
+
+/* Define to 1 if you have the <g729b/ld8a.h> header file. */
+#undef HAVE_G729B_LD8A_H
+
+/* Define to 1 if you have the <g729b/typedef.h> header file. */
+#undef HAVE_G729B_TYPEDEF_H
+
+/* Define to 1 if you have the `getdtablesize' function. */
+#undef HAVE_GETDTABLESIZE
+
+/* Define to 1 if you have the 'getifaddrs' function */
+#undef HAVE_GETIFADDRS
+
+/* Define to 1 if you have the `getpid' function. */
+#undef HAVE_GETPID
+
+/* Define to 1 if you have the `getrlimit' function. */
+#undef HAVE_GETRLIMIT
+
+/* Define to 1 if you have the <gsm.h> header file. */
+#undef HAVE_GSM_H
+
+/* Define if <ifaddrs.h> header exist */
+#undef HAVE_IFADDRS_H
+
+/* HAVE_ILBC */
+#undef HAVE_ILBC
+
+/* Define to 1 if you have the <ilbc/iLBC_decode.h> header file. */
+#undef HAVE_ILBC_ILBC_DECODE_H
+
+/* Define to 1 if you have the <ilbc/iLBC_define.h> header file. */
+#undef HAVE_ILBC_ILBC_DEFINE_H
+
+/* Define to 1 if you have the <ilbc/iLBC_encode.h> header file. */
+#undef HAVE_ILBC_ILBC_ENCODE_H
+
+/* Define to 1 if you have the `inet_ntop' function. */
+#undef HAVE_INET_NTOP
+
+/* Define to 1 if you have the `inet_pton' function. */
+#undef HAVE_INET_PTON
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <jerror.h> header file. */
+#undef HAVE_JERROR_H
+
+/* Define to 1 if you have the <jpeglib.h> header file. */
+#undef HAVE_JPEGLIB_H
+
+/* Define to 1 if you have the <libavcodec/avcodec.h> header file. */
+#undef HAVE_LIBAVCODEC_AVCODEC_H
+
+/* Define to 1 if you have the <libavutil/avutil.h> header file. */
+#undef HAVE_LIBAVUTIL_AVUTIL_H
+
+/* HAVE_LIBGSM */
+#undef HAVE_LIBGSM
+
+/* HAVE_LIBJPEG */
+#undef HAVE_LIBJPEG
+
+/* HAVE_LIBOPUS */
+#undef HAVE_LIBOPUS
+
+/* Define to 1 if you have the <libswscale/swscale.h> header file. */
+#undef HAVE_LIBSWSCALE_SWSCALE_H
+
+/* HAVE_LIBVPX */
+#undef HAVE_LIBVPX
+
+/* HAVE_LIBYUV */
+#undef HAVE_LIBYUV
+
+/* Define to 1 if you have the <libyuv/libyuv.h> header file. */
+#undef HAVE_LIBYUV_LIBYUV_H
+
+/* HAVE_LIB_SPEEX */
+#undef HAVE_LIB_SPEEX
+
+/* Define if <linux/soundcard.h> header exist */
+#undef HAVE_LINUX_SOUNDCARD_H
+
+/* Define if <linux/videodev2.h> header exist */
+#undef HAVE_LINUX_VIDEODEV2_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define if <netpacket/packet.h> header exist */
+#undef HAVE_NETPACKET_PACKET_H
+
+/* Define if <net/if_dl.h> header exist */
+#undef HAVE_NET_IF_DL_H
+
+/* Define if <net/if_types> header exist */
+#undef HAVE_NET_IF_TYPES_H
+
+/* Define if <net/route.h> header exist */
+#undef HAVE_NET_ROUTE_H
+
+/* HAVE_OPENCORE_AMR */
+#undef HAVE_OPENCORE_AMR
+
+/* Define to 1 if you have the <opencore-amrnb/interf_dec.h> header file. */
+#undef HAVE_OPENCORE_AMRNB_INTERF_DEC_H
+
+/* Define to 1 if you have the <opencore-amrnb/interf_enc.h> header file. */
+#undef HAVE_OPENCORE_AMRNB_INTERF_ENC_H
+
+/* Define to 1 if you have the `opendir' function. */
+#undef HAVE_OPENDIR
+
+/* HAVE_OPENH264 */
+#undef HAVE_OPENH264
+
+/* HAVE_OPENSSL */
+#undef HAVE_OPENSSL
+
+/* HAVE_OPENSSL_DTLS */
+#undef HAVE_OPENSSL_DTLS
+
+/* HAVE_OPENSSL_DTLS_SRTP */
+#undef HAVE_OPENSSL_DTLS_SRTP
+
+/* Define to 1 if you have the <openssl/ssl.h> header file. */
+#undef HAVE_OPENSSL_SSL_H
+
+/* Define to 1 if you have the <opus/opus.h> header file. */
+#undef HAVE_OPUS_OPUS_H
+
+/* Define to 1 if you have the `poll' function. */
+#undef HAVE_POLL
+
+/* Define to 1 if you have the <poll.h> header file. */
+#undef HAVE_POLL_H
+
+/* Define to 1 if you have the `setrlimit' function. */
+#undef HAVE_SETRLIMIT
+
+/* HAVE_SPEEX_DENOISE */
+#undef HAVE_SPEEX_DENOISE
+
+/* HAVE_SPEEX_DSP */
+#undef HAVE_SPEEX_DSP
+
+/* HAVE_SPEEX_JB */
+#undef HAVE_SPEEX_JB
+
+/* HAVE_SPEEX_RESAMPLER */
+#undef HAVE_SPEEX_RESAMPLER
+
+/* Define to 1 if you have the <speex/speex_echo.h> header file. */
+#undef HAVE_SPEEX_SPEEX_ECHO_H
+
+/* Define to 1 if you have the <speex/speex.h> header file. */
+#undef HAVE_SPEEX_SPEEX_H
+
+/* Define to 1 if you have the <speex/speex_jitter.h> header file. */
+#undef HAVE_SPEEX_SPEEX_JITTER_H
+
+/* Define to 1 if you have the <speex/speex_preprocess.h> header file. */
+#undef HAVE_SPEEX_SPEEX_PREPROCESS_H
+
+/* Define to 1 if you have the <speex/speex_resampler.h> header file. */
+#undef HAVE_SPEEX_SPEEX_RESAMPLER_H
+
+/* HAVE_SRTP */
+#undef HAVE_SRTP
+
+/* Checks if the installed libsrtp version support
+   srtp_profile_get_master_key_length() function */
+#undef HAVE_SRTP_PROFILE_GET_MASTER_KEY_LENGTH
+
+/* Checks if the installed libsrtp version support
+   srtp_profile_get_master_salt_length() function */
+#undef HAVE_SRTP_PROFILE_GET_MASTER_SALT_LENGTH
+
+/* Define to 1 if you have the <srtp/srtp.h> header file. */
+#undef HAVE_SRTP_SRTP_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `stricmp' function. */
+#undef HAVE_STRICMP
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strnicmp' function. */
+#undef HAVE_STRNICMP
+
+/* Define to 1 if you have the `strtok_r' function. */
+#undef HAVE_STRTOK_R
+
+/* Define to 1 if you have the `strtok_s' function. */
+#undef HAVE_STRTOK_S
+
+/* Define to 1 if the system has the type `struct dirent'. */
+#undef HAVE_STRUCT_DIRENT
+
+/* Define to 1 if the system has the type `struct rlimit'. */
+#undef HAVE_STRUCT_RLIMIT
+
+/* Define to 1 if the system has the type `struct rt_metrics'. */
+#undef HAVE_STRUCT_RT_METRICS
+
+/* Define to 1 if the system has the type `struct sockaddr_dl'. */
+#undef HAVE_STRUCT_SOCKADDR_DL
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#undef HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/resource.h> header file. */
+#undef HAVE_SYS_RESOURCE_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the <vpx/vpx_decoder.h> header file. */
+#undef HAVE_VPX_VPX_DECODER_H
+
+/* Define to 1 if you have the <vpx/vpx_encoder.h> header file. */
+#undef HAVE_VPX_VPX_ENCODER_H
+
+/* HAVE_WEBRTC */
+#undef HAVE_WEBRTC
+
+/* HAVE_WEBRTC_DENOISE */
+#undef HAVE_WEBRTC_DENOISE
+
+/* Define to 1 if you have the <webrtc/echo_cancellation.h> header file. */
+#undef HAVE_WEBRTC_ECHO_CANCELLATION_H
+
+/* Define to 1 if you have the <webrtc/echo_control_mobile.h> header file. */
+#undef HAVE_WEBRTC_ECHO_CONTROL_MOBILE_H
+
+/* Define to 1 if you have the <webrtc/noise_suppression.h> header file. */
+#undef HAVE_WEBRTC_NOISE_SUPPRESSION_H
+
+/* Define to 1 if you have the <webrtc/noise_suppression_x.h> header file. */
+#undef HAVE_WEBRTC_NOISE_SUPPRESSION_X_H
+
+/* Define to 1 if you have the <wels/codec_api.h> header file. */
+#undef HAVE_WELS_CODEC_API_H
+
+/* Define to 1 if you have the <wels/codec_app_def.h> header file. */
+#undef HAVE_WELS_CODEC_APP_DEF_H
+
+/* Check whether __sync_fetch_and_add is defined */
+#undef HAVE___SYNC_FETCH_AND_ADD
+
+/* Check whether __sync_fetch_and_sub is defined */
+#undef HAVE___SYNC_FETCH_AND_SUB
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define if sockaddr.sa_len exists */
+#undef TNET_HAVE_SA_LEN
+
+/* Define if sockaddr_storage.ss_len exists */
+#undef TNET_HAVE_SS_LEN
+
+/* Check whether PTHREAD_MUTEX_RECURSIVE_NP is defined */
+#undef TSK_RECURSIVE_MUTEXATTR
+
+/* Setting USE_POLL to 1 for backward compatibility */
+#undef USE_POLL
+
+/* Version number of package */
+#undef VERSION

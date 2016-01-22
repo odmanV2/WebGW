@@ -1,0 +1,4 @@
+src/libtinySIGCOMP_la-tcomp_compressordata.lo: src/tcomp_compressordata.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

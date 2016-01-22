@@ -1,0 +1,4 @@
+src/stun/libtinyNET_la-tnet_stun_message.lo: src/stun/tnet_stun_message.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

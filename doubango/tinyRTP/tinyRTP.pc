@@ -1,0 +1,14 @@
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name : libtinyRTP
+Description : Doubango Telecom tinyRTP ((S)RTP/(S)RTCP protocols) library
+Version : 2.0.1316
+Requires: 
+Requires.private: tinySAK = 2.0.1316 tinyNET = 2.0.1316 tinyMEDIA = 2.0.1316
+Conflicts:
+Cflags : -I${includedir}/tinyrtp
+Libs : -L${libdir} -ltinyRTP
+Libs.private: 
